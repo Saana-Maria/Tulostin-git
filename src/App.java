@@ -3,13 +3,17 @@ public class App {
        
         
                 System.out.println("Hei olen Tulostin-ohjelma");
-        
+
+        //Tulostetaan ohjelman tekija
+
                 System.out. print("Ohjelman tekijä: "); 
         
                 String tekija = "Saana-Maria";
         
                 System.out.println(tekija);
-        
+
+        //Tehdaan numeeriset muuttujat
+
                 double luku1 = 5;
                 double luku2 = 2;
         
@@ -19,12 +23,18 @@ public class App {
                 System.out.println("Luku2-muuttujan arvo on " + luku2 + ".");
         
                 double tulo = luku1 * luku2;
-        
+                
+            //  Tulostetaan kertolaskun tulos
+
                 System.out.println(luku1 + " * " + luku2 + " = " + tulo);
         
+             //Lasketaan erotus, summa ja jako
+
                 double erotus = luku1 - luku2;
                 double summa = luku1 + luku2;
                 double jako = luku1 / luku2;
+
+                //Seuraavaksi tulostetaan tulokset
         
                 System.out.println(luku1 + " - " + luku2 + " = " + erotus);
                 System.out.println(luku1 + " + " + luku2 + " = " + summa);
